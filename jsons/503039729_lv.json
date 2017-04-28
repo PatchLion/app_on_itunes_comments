@@ -1,0 +1,5 @@
+{"feed":{"author":{"name":{"label":"iTunes Store"}, "uri":{"label":"http://www.apple.com/uk/itunes/"}}, "updated":{"label":"2017-04-28T01:32:50-07:00"}, "rights":{"label":"Copyright 2008 Apple Inc."}, "title":{"label":"iTunes Store: Customer Reviews"}, "icon":{"label":"http://itunes.apple.com/favicon.ico"}, "link":[
+{"attributes":{"rel":"alternate", "type":"text/html", "href":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=lv&id=10000"}}, 
+{"attributes":{"rel":"self", "href":"https://itunes.apple.com/lv/rss/customerreviews/id=503039729/json"}}, 
+{"attributes":{"rel":"first", "href":""}}, {"attributes":{"rel":"last", "href":""}}, 
+{"attributes":{"rel":"previous", "href":""}}, {"attributes":{"rel":"next", "href":""}}], "id":{"label":"https://itunes.apple.com/lv/rss/customerreviews/id=503039729/json"}}}
