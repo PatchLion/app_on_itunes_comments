@@ -5,7 +5,7 @@ import os
 
 from items import ItunescommentsspiderItem
 import time
-from DataManager.DataManager import Comments, DataManager
+from database_manager import Comments, DataManager
 
 countries = ['cn', 'us', 'jp', 'de', 'fr', 'tw', 'hk', 'pt']
 appids = ['503039729', '440159265']

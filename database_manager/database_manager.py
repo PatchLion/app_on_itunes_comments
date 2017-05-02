@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import Column, create_engine
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.types import *
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import func
+from sqlalchemy.ext.declarative import declarative_base
+
+from database_manager import RecordOpratorType
 BaseModel = declarative_base()
 
 class Comments(BaseModel):
@@ -34,28 +36,20 @@ class DataManager(object):
     def recordCount(self):
         return len(self.session.query(Comments).all())
 
-    def addOrUpdateComments(self, comments):
-        try:
-            for c in comments:
-                exist_lists = self.session.query(Comments).filter_by(id=c.id).all()
-                if len(exist_lists) == 0:
-                    print('Add comment to DB:', c.id, c.countryorarea, c.appid)
-                    self.session.add(c)
-                    self.session.commit()
-                else:
-                    print("comment ", c.id, "exist!!!")
-
-        except Exception as e:
-            #self.session.rollback()
-            print('Failed to addOrUpdateComments:', e)
-
+    #
     def addOrUpdateComment(self, comment):
-        print('comment:', comment.id)
         try:
-            result = self.session.query(Comments, comment.id).all()
+            result = self.session.query(Comments).filter_by(id=comment.id).all()
+            #print("->>>>>>>>>>>>>", len(result), comment.id)
             if 0 == len(result):
                 self.session.add(comment)
                 self.session.commit()
+                print("添加新的评论:", comment.id, '/', comment.title)
+                return RecordOpratorType.Insert
+            else:
+                #print("已存在的评论:", comment.id)
+                return RecordOpratorType.Update
         except Exception as e:
             #self.session.rollback()
             print('Failed to addOrUpdateComments:', e)
+            return RecordOpratorType.Error

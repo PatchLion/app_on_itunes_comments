@@ -5,7 +5,12 @@ import os
 
 from items import ItunescommentsspiderItem
 import time
-from DataManager.DataManager import Comments, DataManager
+from database_manager import Comments
+from record_manager import comments_state
+
+from scrapy import signals
+from scrapy.xlib.pydispatch import dispatcher
+
 
 countries = ['cn', 'us', 'jp',
              'de', 'fr', 'tw',
@@ -22,11 +27,12 @@ countries = ['cn', 'us', 'jp',
              'th', 'tr', 'uk',
              'gb', 'ie', 'ca',
              'au', 'nz', 'za']
+
 appids = ['503039729']
 
 replace_chars = [u'\xa9']
 
-datamanager = DataManager()
+
 
 def replaceChar(s):
     for c in replace_chars:
@@ -36,8 +42,6 @@ def replaceChar(s):
 def buildUrl(country, appid):
     return 'https://itunes.apple.com/' + country + '/rss/customerreviews/id=' + appid + '/json'
 
-
-
 class CommentsspiderSpider(scrapy.Spider):
     name = "CommentsSpider"
     allowed_domains = ["itunes.apple.com"]
@@ -46,9 +50,19 @@ class CommentsspiderSpider(scrapy.Spider):
 
     def __init__(self):
         self.start_urls = [buildUrl(c, a) for c in countries for a in appids]
+        #spider启动信号和spider_opened函数绑定
+        dispatcher.connect(self.spider_opened, signals.spider_opened)
+        #spider关闭信号和spider_spider_closed函数绑定
+        dispatcher.connect(self.spider_closed, signals.spider_closed)
 
         for url in self.start_urls:
             print('url--->', url)
+
+    def spider_opened(self):
+        print("Spider Opended!")
+
+    def spider_closed(self):
+        comments_state.afterSpiderFinished()
 
     def parse(self, response):
         json_dict = json.loads(replaceChar(response.body.decode()), encoding='utf-8')
@@ -93,6 +107,6 @@ class CommentsspiderSpider(scrapy.Spider):
 
                 #print("))))))))))))))))))))", c.appid)
 
-            datamanager.addOrUpdateComments(items)
+            comments_state.addComments(items)
 
         #return items
