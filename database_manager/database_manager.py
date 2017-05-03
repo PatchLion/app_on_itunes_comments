@@ -59,8 +59,7 @@ class DataManager(object):
             if 0 == len(result):
                 self.session.add(comment)
                 self.session.commit()
-                print("添加新的评论:", comment.id, '/', comment.title, '/', comment.appid
-                      )
+                print("添加新的评论:", comment.id, '/', comment.title, '/', comment.appid)
                 return RecordOpratorType.Insert
             else:
                 #print("已存在的评论:", comment.id)

@@ -1,10 +1,11 @@
 #!/usr/binenv python
 # -*- coding: utf-8 -*-
-
+import time
 import json
+from operator import itemgetter, attrgetter
 from database_manager import data_manager, RecordOpratorType
 from email_manager import send_email
-import time
+
 
 
 class CommentsStateManager(object):
@@ -63,13 +64,17 @@ class CommentsStateManager(object):
     def afterSpiderFinished(self):
         if len(self._newcomments) > 0:
             for key, value in self._newcomments.items():
-                print('有新的评论的App:', key, '新评论数:', len(self._newcomments[key]), '条')
+                comments = self._newcomments[key]
+                comments.sort(key=attrgetter('version'), reverse=True)
+                #for c in comments:
+                    #print("version:", c.version, c.appid)
+                print('有新的评论的App:', key, '新评论数:', len(comments), '条')
 
                 appid_config = self._emil_config["dest_emails"].get(key, None)
                 if appid_config is None:
                     print("没有找到App:", key, "相关的邮箱配置!")
                 else:
-                    content = self.buildEmailContent(appid_config["app_name"], self._newcomments[key])
+                    content = self.buildEmailContent(appid_config["app_name"], comments)
 
                     app_name_with_line = appid_config["app_name"].replace(' ', "_")
                     temp_html_file_nam = 'comments_'+ app_name_with_line + '_' + key +'.html'
@@ -87,7 +92,7 @@ class CommentsStateManager(object):
                                          self._emil_config["port"],
                                          self._emil_config["email"],
                                          appid_config["emails"],
-                                         "App [" + appid_config["app_name"] + "] 有了" + str(len(self._newcomments[key]))+ "条新评论",
+                                         "App [" + appid_config["app_name"] + "] 有了" + str(len(comments))+ "条新评论",
                                          "见附件", [temp_html_file_nam])
 
                     print("发送邮件完毕!")
