@@ -1,6 +1,6 @@
 #!/usr/binenv python
 # -*- coding: utf-8 -*-
-
+import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
@@ -12,7 +12,7 @@ from email import encoders
 import os
 
 # server['name'], server['user'], server['passwd']
-def send_mail(server, fro, to, subject, text, files=[]):
+def send_mail(server, p, fro, to, subject, text, files=[]):
     assert type(server) == dict
     assert type(to) == list
     assert type(files) == list
@@ -32,8 +32,9 @@ def send_mail(server, fro, to, subject, text, files=[]):
         msg.attach(part)
 
     import smtplib
-    smtp = smtplib.SMTP(server['name'], port=587)
-    smtp.starttls()
+    smtp = smtplib.SMTP()# smtplib.SMTP(server['name'], port=p)
+    #smtp.starttls()
+    smtp.connect(server['name'])
     smtp.login(server['user'], server['passwd'])
     smtp.sendmail(fro, to, msg.as_string())
     smtp.close()

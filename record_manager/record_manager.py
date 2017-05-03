@@ -76,17 +76,20 @@ class CommentsStateManager(object):
                     with open(temp_html_file_nam, 'w', encoding='utf-8') as f:
                         f.write(content)
 
-                    print("开始发送App", key, "的通知邮件(From:", self._emil_config["email"], ' To: ', appid_config["emails"], ")")
+                    print("开始发送App", key, "的通知邮件(From:", self._emil_config["email"], ":" , str(self._emil_config["port"]), ' To: ', appid_config["emails"], ")")
                     #发送通知邮件
                     server = {}
                     server['name'] = self._emil_config["smtp_server"]
                     server['user'] = self._emil_config["email"]
                     server['passwd'] = self._emil_config["password"]
+                    print("Email server:", server)
                     send_email.send_mail(server,
+                                         self._emil_config["port"],
                                          self._emil_config["email"],
                                          appid_config["emails"],
                                          "App [" + appid_config["app_name"] + "] 有了" + str(len(self._newcomments[key]))+ "条新评论",
                                          "见附件", [temp_html_file_nam])
+
                     print("发送邮件完毕!")
             self._newcomments.clear()
 
