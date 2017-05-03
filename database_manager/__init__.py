@@ -4,6 +4,6 @@ class RecordOpratorType(Enum):
     Insert = 0
     Update = 1
 
-from database_manager.database_manager import DataManager, Comments
+from database_manager.database_manager import DataManager, Comments, AppInfo
 
 data_manager = DataManager()

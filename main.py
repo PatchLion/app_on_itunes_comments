@@ -5,16 +5,16 @@ import os
 import time
 
 from record_manager import comments_state
+from spiders import itunes_config
 
 def runSpider():
     while(True):
         print('Start Spider!')
         os.system('scrapy crawl CommentsXmlSpider')
+        os.system('scrapy crawl AppInfoSpider')
         print('End Spider!')
         print("Record Count:", comments_state.recordCount())
-        with open('lasttime.record', 'w') as f:
-            f.write(str(time.time()))
-        time.sleep(60 * 60 * 3) #三小时拉取一次
+        time.sleep(60 * 60 * itunes_config.delay()) #下一次拉取间隔
 
 
 if '__main__' == __name__:

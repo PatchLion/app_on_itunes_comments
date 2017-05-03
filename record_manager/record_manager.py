@@ -20,6 +20,10 @@ class CommentsStateManager(object):
             self._emil_config = json.load(f, encoding='utf-8')
         print("加载邮件配置:", self._emil_config)
 
+    def addOrUpdateAppInfo(self, appinfo):
+        opr_type = data_manager.addOrUpdateAppInfo(appinfo)
+
+
     def addComments(self, comments):
         for comment in comments:
             self.addComment(comment)
@@ -67,7 +71,8 @@ class CommentsStateManager(object):
                 else:
                     content = self.buildEmailContent(appid_config["app_name"], self._newcomments[key])
 
-                    temp_html_file_nam = 'comments.html'
+                    app_name_with_line = appid_config["app_name"].replace(' ', "_")
+                    temp_html_file_nam = 'comments_'+ app_name_with_line + '_' + key +'.html'
                     with open(temp_html_file_nam, 'w', encoding='utf-8') as f:
                         f.write(content)
 
@@ -80,7 +85,7 @@ class CommentsStateManager(object):
                     send_email.send_mail(server,
                                          self._emil_config["email"],
                                          appid_config["emails"],
-                                         "App[" + appid_config["app_name"] + "] 有了" + str(len(self._newcomments[key]))+ "条新评论",
+                                         "App [" + appid_config["app_name"] + "] 有了" + str(len(self._newcomments[key]))+ "条新评论",
                                          "见附件", [temp_html_file_nam])
                     print("发送邮件完毕!")
             self._newcomments.clear()

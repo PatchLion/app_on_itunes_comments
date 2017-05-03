@@ -2,53 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b99fef-af5f-4c4b-989a-93ec37f646b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spiders/CommentsDateTimeSpider.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itunes.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spiders/AppInfoSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_ar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_au.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_be.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_ca.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_cn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_de.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_es.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_fi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_fr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_gb.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_hk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_hr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_hu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_ie.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_is.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_it.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_jp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_lt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_lv.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_mk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_nl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_no.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_nz.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_pl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_pt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_ro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_ru.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_sk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_sl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_sr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_sv.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_th.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_tr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_tw.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_us.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/1173483089_za.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_ar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_au.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_be.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_ca.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_cn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_de.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_es.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_fi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_fr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_gb.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_hk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_hr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_hu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_ie.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_is.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_it.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_jp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_lt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_lv.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_mk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_nl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_no.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_nz.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_pl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_pt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_ro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_ru.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_sk.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_sl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_sr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_sv.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_th.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_tr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_tw.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_us.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmls/440159265_za.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lasttime.record" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spiders/CommentsSpider.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.db" afterPath="$PROJECT_DIR$/comments.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.html" afterPath="$PROJECT_DIR$/comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database_manager/__init__.py" afterPath="$PROJECT_DIR$/database_manager/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database_manager/database_manager.py" afterPath="$PROJECT_DIR$/database_manager/database_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email_template.html" afterPath="$PROJECT_DIR$/email_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_ar.json" afterPath="$PROJECT_DIR$/jsons/503039729_ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_au.json" afterPath="$PROJECT_DIR$/jsons/503039729_au.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_be.json" afterPath="$PROJECT_DIR$/jsons/503039729_be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_ca.json" afterPath="$PROJECT_DIR$/jsons/503039729_ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_cn.json" afterPath="$PROJECT_DIR$/jsons/503039729_cn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_de.json" afterPath="$PROJECT_DIR$/jsons/503039729_de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_es.json" afterPath="$PROJECT_DIR$/jsons/503039729_es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_fi.json" afterPath="$PROJECT_DIR$/jsons/503039729_fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_fr.json" afterPath="$PROJECT_DIR$/jsons/503039729_fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_gb.json" afterPath="$PROJECT_DIR$/jsons/503039729_gb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_hk.json" afterPath="$PROJECT_DIR$/jsons/503039729_hk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_hr.json" afterPath="$PROJECT_DIR$/jsons/503039729_hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_hu.json" afterPath="$PROJECT_DIR$/jsons/503039729_hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_ie.json" afterPath="$PROJECT_DIR$/jsons/503039729_ie.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_is.json" afterPath="$PROJECT_DIR$/jsons/503039729_is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_it.json" afterPath="$PROJECT_DIR$/jsons/503039729_it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_jp.json" afterPath="$PROJECT_DIR$/jsons/503039729_jp.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_lt.json" afterPath="$PROJECT_DIR$/jsons/503039729_lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_lv.json" afterPath="$PROJECT_DIR$/jsons/503039729_lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_mk.json" afterPath="$PROJECT_DIR$/jsons/503039729_mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_nl.json" afterPath="$PROJECT_DIR$/jsons/503039729_nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_no.json" afterPath="$PROJECT_DIR$/jsons/503039729_no.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_nz.json" afterPath="$PROJECT_DIR$/jsons/503039729_nz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_pl.json" afterPath="$PROJECT_DIR$/jsons/503039729_pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_pt.json" afterPath="$PROJECT_DIR$/jsons/503039729_pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_ro.json" afterPath="$PROJECT_DIR$/jsons/503039729_ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_ru.json" afterPath="$PROJECT_DIR$/jsons/503039729_ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_sk.json" afterPath="$PROJECT_DIR$/jsons/503039729_sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_sl.json" afterPath="$PROJECT_DIR$/jsons/503039729_sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_sr.json" afterPath="$PROJECT_DIR$/jsons/503039729_sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_sv.json" afterPath="$PROJECT_DIR$/jsons/503039729_sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_th.json" afterPath="$PROJECT_DIR$/jsons/503039729_th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_tr.json" afterPath="$PROJECT_DIR$/jsons/503039729_tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_tw.json" afterPath="$PROJECT_DIR$/jsons/503039729_tw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_us.json" afterPath="$PROJECT_DIR$/jsons/503039729_us.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/503039729_za.json" afterPath="$PROJECT_DIR$/jsons/503039729_za.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lasttime.record" afterPath="$PROJECT_DIR$/lasttime.record" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_manager/record_manager.py" afterPath="$PROJECT_DIR$/record_manager/record_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/row_template.html" afterPath="$PROJECT_DIR$/row_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/CommentsSpider.py" afterPath="$PROJECT_DIR$/spiders/CommentsSpider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" afterPath="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/ItunesConfig.py" afterPath="$PROJECT_DIR$/spiders/ItunesConfig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/__init__.py" afterPath="$PROJECT_DIR$/spiders/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ar.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_au.xml" afterPath="$PROJECT_DIR$/xmls/503039729_au.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_be.xml" afterPath="$PROJECT_DIR$/xmls/503039729_be.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ca.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ca.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_cn.xml" afterPath="$PROJECT_DIR$/xmls/503039729_cn.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_de.xml" afterPath="$PROJECT_DIR$/xmls/503039729_de.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_es.xml" afterPath="$PROJECT_DIR$/xmls/503039729_es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_fi.xml" afterPath="$PROJECT_DIR$/xmls/503039729_fi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_fr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_gb.xml" afterPath="$PROJECT_DIR$/xmls/503039729_gb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_hk.xml" afterPath="$PROJECT_DIR$/xmls/503039729_hk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_hr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_hr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_hu.xml" afterPath="$PROJECT_DIR$/xmls/503039729_hu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ie.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ie.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_is.xml" afterPath="$PROJECT_DIR$/xmls/503039729_is.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_it.xml" afterPath="$PROJECT_DIR$/xmls/503039729_it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_jp.xml" afterPath="$PROJECT_DIR$/xmls/503039729_jp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_lt.xml" afterPath="$PROJECT_DIR$/xmls/503039729_lt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_lv.xml" afterPath="$PROJECT_DIR$/xmls/503039729_lv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_mk.xml" afterPath="$PROJECT_DIR$/xmls/503039729_mk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_nl.xml" afterPath="$PROJECT_DIR$/xmls/503039729_nl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_no.xml" afterPath="$PROJECT_DIR$/xmls/503039729_no.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_nz.xml" afterPath="$PROJECT_DIR$/xmls/503039729_nz.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_pl.xml" afterPath="$PROJECT_DIR$/xmls/503039729_pl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_pt.xml" afterPath="$PROJECT_DIR$/xmls/503039729_pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ro.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ru.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sk.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sl.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sv.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_th.xml" afterPath="$PROJECT_DIR$/xmls/503039729_th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_tr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_tw.xml" afterPath="$PROJECT_DIR$/xmls/503039729_tw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_us.xml" afterPath="$PROJECT_DIR$/xmls/503039729_us.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_za.xml" afterPath="$PROJECT_DIR$/xmls/503039729_za.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +143,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="database_manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+              <folding>
+                <element signature="e#46#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="e#46#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CommentsXmlSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+            <state relative-caret-position="-2">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itunes.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itunes.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="12" />
+              <folding>
+                <marker date="1493786474855" expanded="true" signature="1754:1768" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppInfoSpider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spiders/AppInfoSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -83,8 +216,8 @@
       <file leaf-file-name="record_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record_manager/record_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+            <state relative-caret-position="509">
+              <caret line="74" column="93" lean-forward="false" selection-start-line="74" selection-start-column="93" selection-end-line="74" selection-end-column="93" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -92,122 +225,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comments.html">
+      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email_manager/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1493786588368" expanded="true" signature="3010:3016" ph="..." />
-                <marker date="1493786588368" expanded="true" signature="3010:3020" ph="..." />
-                <marker date="1493786588368" expanded="true" signature="3010:3177" ph="..." />
-                <marker date="1493786588368" expanded="true" signature="3010:3184" ph="..." />
-                <marker date="1493786588368" expanded="false" signature="3061:3076" ph="..." />
-                <marker date="1493786588368" expanded="true" signature="3077:3169" ph="..." />
-                <marker date="1493786588368" expanded="true" signature="3094:3165" ph="..." />
-                <marker date="1493786588368" expanded="false" signature="3104:3151" ph="..." />
-                <marker date="1493786588368" expanded="false" signature="3153:3159" ph=" " />
-                <marker date="1493786588368" expanded="false" signature="3235:3252" ph="..." />
-                <marker date="1493786588368" expanded="false" signature="3271:3277" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email_template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/email_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <marker date="1493786474855" expanded="false" signature="1454:1566" ph="..." />
-                <marker date="1493786474855" expanded="false" signature="1610:1627" ph="..." />
-                <marker date="1493786474855" expanded="false" signature="1655:1715" ph="..." />
-                <marker date="1493786474855" expanded="true" signature="1754:1768" ph="..." />
-                <marker date="1493786474855" expanded="false" signature="1810:1827" ph="..." />
-                <marker date="1493786474855" expanded="false" signature="1846:1852" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row_template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/row_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-              <folding>
-                <marker date="1493786461493" expanded="false" signature="661:676" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="677:797" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="694:793" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="704:765" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="826:840" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="841:1333" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="877:1004" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="1005:1326" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="1046:1061" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="1062:1169" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="1079:1165" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="1089:1148" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="1210:1225" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="1226:1318" ph="..." />
-                <marker date="1493786461493" expanded="true" signature="1243:1314" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="1253:1300" ph="..." />
-                <marker date="1493786461493" expanded="false" signature="1302:1308" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/time.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+            <state relative-caret-position="-120">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database_manager/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#46#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_strptime.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/_strptime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentsSpider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/CommentsSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urllength.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spidermiddlewares/urllength.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -224,7 +256,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-----------</find>
       <find>++++++++</find>
       <find>=====</find>
       <find>*******</find>
@@ -254,6 +285,7 @@
       <find>as</find>
       <find>parse_node</find>
       <find>‘</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -288,18 +320,23 @@
         <option value="$PROJECT_DIR$/DataManager/__init__.py" />
         <option value="$PROJECT_DIR$/email_manager/__init__.py" />
         <option value="$PROJECT_DIR$/record_manager/__init__.py" />
-        <option value="$PROJECT_DIR$/database_manager/__init__.py" />
         <option value="$PROJECT_DIR$/spiders/CommentsDateTimeSpider.py" />
         <option value="$PROJECT_DIR$/email_manager/send_email.py" />
         <option value="$PROJECT_DIR$/row_template.html" />
         <option value="$PROJECT_DIR$/email_template.html" />
-        <option value="$PROJECT_DIR$/spiders/CommentsSpider.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/xmls/503039729_ar.xml" />
-        <option value="$PROJECT_DIR$/database_manager/database_manager.py" />
-        <option value="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
-        <option value="$PROJECT_DIR$/record_manager/record_manager.py" />
         <option value="$PROJECT_DIR$/comments.html" />
+        <option value="$PROJECT_DIR$/spiders/CommentsSpider.py" />
+        <option value="$PROJECT_DIR$/email.config" />
+        <option value="$PROJECT_DIR$/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/itunes.config" />
+        <option value="$PROJECT_DIR$/spiders/ItunesConfig.py" />
+        <option value="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
+        <option value="$PROJECT_DIR$/database_manager/__init__.py" />
+        <option value="$PROJECT_DIR$/spiders/AppInfoSpider.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/database_manager/database_manager.py" />
+        <option value="$PROJECT_DIR$/record_manager/record_manager.py" />
       </list>
     </option>
   </component>
@@ -369,20 +406,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="record_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_on_itunes_comments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app_on_itunes_comments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email_manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,12 +678,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19412607" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3716216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3716216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,63 +721,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsons/503039729_tr.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendEMail/EmailManager2.py" />
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendEMail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendEMail/EmailManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentsState/CommentsStateManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentsState/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataManager/DataManager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -790,22 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record_manager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="276" column="41" lean-forward="false" selection-start-line="276" selection-start-column="41" selection-end-line="276" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -874,22 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database_manager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email_manager/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -903,16 +838,6 @@
         <state relative-caret-position="220">
           <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#46#55#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,51 +961,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/CommentsSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#46#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/record_manager/record_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,37 +995,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comments.html">
+    <entry file="file://$PROJECT_DIR$/spiders/CommentsSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state relative-caret-position="60">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_bk.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/ItunesConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="270" column="4" lean-forward="false" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_manager/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/babel/messages/catalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="610" column="8" lean-forward="false" selection-start-line="610" selection-start-column="8" selection-end-line="610" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="430" column="31" lean-forward="false" selection-start-line="430" selection-start-column="28" selection-end-line="430" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <marker date="1493786588368" expanded="true" signature="3010:3016" ph="..." />
-            <marker date="1493786588368" expanded="true" signature="3010:3020" ph="..." />
-            <marker date="1493786588368" expanded="true" signature="3010:3177" ph="..." />
-            <marker date="1493786588368" expanded="true" signature="3010:3184" ph="..." />
-            <marker date="1493786588368" expanded="false" signature="3061:3076" ph="..." />
-            <marker date="1493786588368" expanded="true" signature="3077:3169" ph="..." />
-            <marker date="1493786588368" expanded="true" signature="3094:3165" ph="..." />
-            <marker date="1493786588368" expanded="false" signature="3104:3151" ph="..." />
-            <marker date="1493786588368" expanded="false" signature="3153:3159" ph=" " />
-            <marker date="1493786588368" expanded="false" signature="3235:3252" ph="..." />
-            <marker date="1493786588368" expanded="false" signature="3271:3277" ph=" " />
+            <element signature="e#46#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/email_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="80">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="12" />
           <folding>
-            <marker date="1493786474855" expanded="false" signature="1454:1566" ph="..." />
-            <marker date="1493786474855" expanded="false" signature="1610:1627" ph="..." />
-            <marker date="1493786474855" expanded="false" signature="1655:1715" ph="..." />
             <marker date="1493786474855" expanded="true" signature="1754:1768" ph="..." />
-            <marker date="1493786474855" expanded="false" signature="1810:1827" ph="..." />
-            <marker date="1493786474855" expanded="false" signature="1846:1852" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record_manager/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itunes.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_manager/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record_manager/record_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="74" column="93" lean-forward="false" selection-start-line="74" selection-start-column="93" selection-end-line="74" selection-end-column="93" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/AppInfoSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
