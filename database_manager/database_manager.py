@@ -25,6 +25,9 @@ class Comments(BaseModel):
     createtimestamp = Column(TEXT())
     updatetimestamp = Column(TEXT())
 
+    def __str__(self):
+        return "Comment:" + self.id + " " + self.author + " " + self.title + " " + str(self.createtimestamp)
+
 class DataManager(object):
     def __init__(self):
         print("DataManager __init__")

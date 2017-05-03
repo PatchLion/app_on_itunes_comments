@@ -4,16 +4,16 @@
 import json
 from database_manager import data_manager, RecordOpratorType
 from email_manager import send_email
-
+import time
 
 
 class CommentsStateManager(object):
     def __init__(self):
         self._newcomments = {}          #新增的评论
-        with open('email_template.html', 'r') as f:
+        with open('email_template.html', 'r', encoding='utf-8') as f:
             self._email_template = f.read()
             print("网页模板加载完毕")
-        with open('row_template.html', 'r') as f:
+        with open('row_template.html', 'r', encoding='utf-8') as f:
             self._email_row_template = f.read()
             print("行模板加载完毕")
         with open('email.config', 'r') as f:
@@ -36,16 +36,22 @@ class CommentsStateManager(object):
 
     def buildEmailContent(self, appname, comments):
         html = self._email_template
+        html = html.replace('%AppName%', appname)
         rows = ""
         for c in comments:
             row_temp = self._email_row_template
-            row_temp = row_temp.replace('%AppName%', appname + "(" + c.version + ")")
             row_temp = row_temp.replace('%Author%', c.author)
-            row_temp = row_temp.replace('%Star%', str(c.rating))
-            row_temp = row_temp.replace('%DateTime%', "")
+            rating_sting = ''
+            for i in range(int(c.rating)):
+                rating_sting += "☆"
+            row_temp = row_temp.replace('%Star%', rating_sting)
+            timeArray = time.localtime(float(c.createtimestamp))
+            otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
+            row_temp = row_temp.replace('%DateTime%', otherStyleTime)
             row_temp = row_temp.replace('%Title%', c.title)
             row_temp = row_temp.replace('%Content%', c.content)
             row_temp = row_temp.replace('%Area%',c.countryorarea)
+            row_temp = row_temp.replace('%Version%',c.version)
             rows = rows + row_temp
         html = html.replace('%Rows%', rows)
         return html
@@ -62,7 +68,7 @@ class CommentsStateManager(object):
                     content = self.buildEmailContent(appid_config["app_name"], self._newcomments[key])
 
                     temp_html_file_nam = 'comments.html'
-                    with open(temp_html_file_nam, 'w') as f:
+                    with open(temp_html_file_nam, 'w', encoding='utf-8') as f:
                         f.write(content)
 
                     print("开始发送App", key, "的通知邮件(From:", self._emil_config["email"], ' To: ', appid_config["emails"], ")")

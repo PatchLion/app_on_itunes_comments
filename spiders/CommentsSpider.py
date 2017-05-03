@@ -64,6 +64,7 @@ class CommentsspiderSpider(scrapy.Spider):
     def spider_closed(self):
         comments_state.afterSpiderFinished()
 
+
     def parse(self, response):
         json_dict = json.loads(replaceChar(response.body.decode()), encoding='utf-8')
         url = str(response.url)
@@ -84,12 +85,8 @@ class CommentsspiderSpider(scrapy.Spider):
         if None == entries:
             print("Failed resolve json dict! ", countryorarea, appid)
         else:
-
             entries = entries[1:]
-
             items = []
-
-
             for data in entries:
                 c = Comments()
                 c.id = data["id"]["label"]
@@ -108,5 +105,3 @@ class CommentsspiderSpider(scrapy.Spider):
                 #print("))))))))))))))))))))", c.appid)
 
             comments_state.addComments(items)
-
-        #return items

@@ -1,4 +1,4 @@
-{"feed":{"author":{"name":{"label":"iTunes Store"}, "uri":{"label":"http://www.apple.com/mx/itunes/"}}, "updated":{"label":"2017-05-02T02:52:45-07:00"}, "rights":{"label":"Copyright 2008 Apple Inc."}, "title":{"label":"iTunes Store: Reseñas de clientes"}, "icon":{"label":"http://itunes.apple.com/favicon.ico"}, "link":[
+{"feed":{"author":{"name":{"label":"iTunes Store"}, "uri":{"label":"http://www.apple.com/mx/itunes/"}}, "updated":{"label":"2017-05-02T19:14:38-07:00"}, "rights":{"label":"Copyright 2008 Apple Inc."}, "title":{"label":"iTunes Store: Reseñas de clientes"}, "icon":{"label":"http://itunes.apple.com/favicon.ico"}, "link":[
 {"attributes":{"rel":"alternate", "type":"text/html", "href":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=sv&id=132005"}}, 
 {"attributes":{"rel":"self", "href":"https://itunes.apple.com/sv/rss/customerreviews/id=503039729/json"}}, 
 {"attributes":{"rel":"first", "href":""}}, {"attributes":{"rel":"last", "href":""}}, 

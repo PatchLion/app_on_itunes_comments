@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+ <body>
+  <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:im="http://itunes.apple.com/rss">
+   <id>
+    https://itunes.apple.com/sl/rss/customerreviews/id=503039729/xml
+   </id>
+   <title>
+    iTunes Store: Customer Reviews
+   </title>
+   <updated>
+    2017-05-02T21:17:01-07:00
+   </updated>
+   <link href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=sl&amp;id=25129&amp;mt=8" rel="alternate" type="text/html"/>
+   <link href="https://itunes.apple.com/sl/rss/customerreviews/id=503039729/xml" rel="self"/>
+   <link href="" rel="first"/>
+   <link href="" rel="last"/>
+   <link href="" rel="previous"/>
+   <link href="" rel="next"/>
+   <icon>
+    http://itunes.apple.com/favicon.ico
+   </icon>
+   <author>
+    <name>
+     iTunes Store
+    </name>
+    <uri>
+     http://www.apple.com/uk/itunes/
+    </uri>
+   </author>
+   <rights>
+    Copyright 2008 Apple Inc.
+   </rights>
+  </feed>
+ </body>
+</html>

@@ -9,7 +9,7 @@ from record_manager import comments_state
 def runSpider():
     while(True):
         print('Start Spider!')
-        os.system('scrapy crawl CommentsSpider')
+        os.system('scrapy crawl CommentsXmlSpider')
         print('End Spider!')
         print("Record Count:", comments_state.recordCount())
         with open('lasttime.record', 'w') as f:
