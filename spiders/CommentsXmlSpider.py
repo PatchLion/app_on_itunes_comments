@@ -47,11 +47,14 @@ class CommentsXMLSpider(XMLFeedSpider):
         countryorarea = url[len('https://itunes.apple.com/'):len('https://itunes.apple.com/') + 2]
         appid = url.split('=')[1].split('/')[0]
 
+        '''
         if not os.path.exists("xmls"):
             os.mkdir('xmls')
 
         with open("xmls/" + appid + "_" + countryorarea + ".xml", 'w', encoding='utf-8') as f:
             f.write(soup.prettify())
+
+        '''
 
         items = []
         for tag in soup.find_all('entry')[1:]:

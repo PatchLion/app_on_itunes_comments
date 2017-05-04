@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b99fef-af5f-4c4b-989a-93ec37f646b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comments_GoArt_for_Mac_1173483089.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.db" afterPath="$PROJECT_DIR$/comments.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments_Fotor_for_mac_503039729.html" afterPath="$PROJECT_DIR$/comments_Fotor_for_mac_503039729.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database_manager/database_manager.py" afterPath="$PROJECT_DIR$/database_manager/database_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itunes.config" afterPath="$PROJECT_DIR$/itunes.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/record_manager/record_manager.py" afterPath="$PROJECT_DIR$/record_manager/record_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_ar.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_ar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_au.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_au.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_be.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_be.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_ca.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_ca.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_cn.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_cn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_de.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_de.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_es.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_es.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_fr.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_gb.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_gb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_hk.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_hk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_hr.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_hr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_hu.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_hu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_ie.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_ie.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_is.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_is.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_it.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_it.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_lv.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_lv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_nl.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_nl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_no.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_no.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_nz.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_nz.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_pl.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_pl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_pt.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_ro.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_ro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_ru.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_sk.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_sk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_sr.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_sr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_th.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_th.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_tr.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_tw.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_tw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_us.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_us.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/1173483089_za.xml" afterPath="$PROJECT_DIR$/xmls/1173483089_za.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ar.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_au.xml" afterPath="$PROJECT_DIR$/xmls/503039729_au.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ca.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ca.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_cn.xml" afterPath="$PROJECT_DIR$/xmls/503039729_cn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_de.xml" afterPath="$PROJECT_DIR$/xmls/503039729_de.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_fr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_gb.xml" afterPath="$PROJECT_DIR$/xmls/503039729_gb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_hr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_hr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_hu.xml" afterPath="$PROJECT_DIR$/xmls/503039729_hu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ie.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ie.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_is.xml" afterPath="$PROJECT_DIR$/xmls/503039729_is.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_it.xml" afterPath="$PROJECT_DIR$/xmls/503039729_it.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_jp.xml" afterPath="$PROJECT_DIR$/xmls/503039729_jp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_lt.xml" afterPath="$PROJECT_DIR$/xmls/503039729_lt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_lv.xml" afterPath="$PROJECT_DIR$/xmls/503039729_lv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_mk.xml" afterPath="$PROJECT_DIR$/xmls/503039729_mk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_nl.xml" afterPath="$PROJECT_DIR$/xmls/503039729_nl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_no.xml" afterPath="$PROJECT_DIR$/xmls/503039729_no.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_nz.xml" afterPath="$PROJECT_DIR$/xmls/503039729_nz.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_pl.xml" afterPath="$PROJECT_DIR$/xmls/503039729_pl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_pt.xml" afterPath="$PROJECT_DIR$/xmls/503039729_pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ro.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_ru.xml" afterPath="$PROJECT_DIR$/xmls/503039729_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sk.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_sv.xml" afterPath="$PROJECT_DIR$/xmls/503039729_sv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_th.xml" afterPath="$PROJECT_DIR$/xmls/503039729_th.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_tr.xml" afterPath="$PROJECT_DIR$/xmls/503039729_tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_tw.xml" afterPath="$PROJECT_DIR$/xmls/503039729_tw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_us.xml" afterPath="$PROJECT_DIR$/xmls/503039729_us.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/503039729_za.xml" afterPath="$PROJECT_DIR$/xmls/503039729_za.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" afterPath="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CommentsXmlSpider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommentsXmlSpider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="844">
+              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="11" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -118,17 +52,12 @@
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1493805499203" expanded="true" signature="9771:9777" ph="..." />
-                <marker date="1493805499203" expanded="true" signature="9771:9781" ph="..." />
-                <marker date="1493805499203" expanded="true" signature="9771:9938" ph="..." />
-                <marker date="1493805499203" expanded="true" signature="9771:9945" ph="..." />
-                <marker date="1493805499203" expanded="false" signature="9996:10013" ph="..." />
-                <marker date="1493805499203" expanded="false" signature="10032:10038" ph=" " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.config" pinned="false" current-in-tab="true">
+      <file leaf-file-name="email.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -138,10 +67,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="record_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/record_manager/record_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="1360">
               <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
               <folding>
                 <element signature="e#45#56#0" expanded="true" />
@@ -163,21 +112,9 @@
       <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="10340">
               <caret line="517" column="4" lean-forward="false" selection-start-line="517" selection-start-column="4" selection-end-line="517" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="61" column="83" lean-forward="false" selection-start-line="61" selection-start-column="83" selection-end-line="61" selection-end-column="83" />
-              <folding>
-                <element signature="e#46#90#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,22 +122,10 @@
       <file leaf-file-name="AppInfoSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spiders/AppInfoSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="484">
               <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/email_manager/send_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#45#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -289,7 +214,6 @@
         <option value="$PROJECT_DIR$/spiders/CommentsSpider.py" />
         <option value="$PROJECT_DIR$/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/spiders/ItunesConfig.py" />
-        <option value="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
         <option value="$PROJECT_DIR$/database_manager/__init__.py" />
         <option value="$PROJECT_DIR$/spiders/AppInfoSpider.py" />
         <option value="$PROJECT_DIR$/main.py" />
@@ -300,6 +224,7 @@
         <option value="$PROJECT_DIR$/comments_Fotor_for_mac_503039729.html" />
         <option value="$PROJECT_DIR$/itunes.config" />
         <option value="$PROJECT_DIR$/record_manager/record_manager.py" />
+        <option value="$PROJECT_DIR$/spiders/CommentsXmlSpider.py" />
       </list>
     </option>
   </component>
@@ -330,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -402,6 +326,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,23 +582,23 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19412607" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1969914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3716216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3716216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -702,23 +627,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/CommentsDateTimeSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/CommentsDateTimeSpider.py" />
     <entry file="file://C:/Program Files/Anaconda3/Lib/email/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2338">
           <caret line="144" column="54" lean-forward="false" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="520" column="0" lean-forward="false" selection-start-line="520" selection-start-column="0" selection-end-line="520" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,15 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,41 +797,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-          <folding>
-            <marker date="1493786461493" expanded="false" signature="661:676" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="677:797" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="694:793" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="704:765" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="826:840" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="841:1333" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="877:1004" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="1005:1326" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="1046:1061" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="1062:1169" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="1079:1165" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="1089:1148" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="1210:1225" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="1226:1318" ph="..." />
-            <marker date="1493786461493" expanded="true" signature="1243:1314" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="1253:1300" ph="..." />
-            <marker date="1493786461493" expanded="false" signature="1302:1308" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/CommentsSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/CommentsSpider.py" />
     <entry file="file://$PROJECT_DIR$/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-644">
           <caret line="270" column="4" lean-forward="false" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="610" column="8" lean-forward="false" selection-start-line="610" selection-start-column="8" selection-end-line="610" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,17 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="430" column="31" lean-forward="false" selection-start-line="430" selection-start-column="28" selection-end-line="430" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="e#46#55#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,20 +840,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <marker date="1493786474855" expanded="true" signature="1754:1768" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/comments.html" />
     <entry file="file://$PROJECT_DIR$/record_manager/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1020,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="882" column="0" lean-forward="false" selection-start-line="882" selection-start-column="0" selection-end-line="882" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,13 +870,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/email_manager/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="460">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#45#59#0" expanded="true" />
@@ -1052,20 +885,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database_manager/database_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="1100">
           <caret line="61" column="83" lean-forward="false" selection-start-line="61" selection-start-column="83" selection-end-line="61" selection-end-column="83" />
           <folding>
             <element signature="e#46#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/AppInfoSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1074,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,18 +906,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1493805499203" expanded="true" signature="9771:9777" ph="..." />
-            <marker date="1493805499203" expanded="true" signature="9771:9781" ph="..." />
-            <marker date="1493805499203" expanded="true" signature="9771:9938" ph="..." />
-            <marker date="1493805499203" expanded="true" signature="9771:9945" ph="..." />
-            <marker date="1493805499203" expanded="false" signature="9996:10013" ph="..." />
-            <marker date="1493805499203" expanded="false" signature="10032:10038" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="10340">
           <caret line="517" column="4" lean-forward="false" selection-start-line="517" selection-start-column="4" selection-end-line="517" selection-end-column="4" />
           <folding />
         </state>
@@ -1109,19 +926,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/record_manager/record_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="1360">
           <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
           <folding>
             <element signature="e#45#56#0" expanded="true" />
@@ -1142,6 +949,42 @@
         <state relative-caret-position="180">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1282051629/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/AppInfoSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/CommentsXmlSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

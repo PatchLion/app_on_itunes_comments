@@ -88,4 +88,9 @@ ENV/
 # Rope project settings
 .ropeproject
 
-email.config 
+email.config
+.idea
+
+comments.db
+
+comments_*.html
