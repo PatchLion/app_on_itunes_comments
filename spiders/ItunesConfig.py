@@ -4,18 +4,20 @@
 import json
 
 class ItunesConfig(object):
-    def __init__(self):
+    def _config(self):
         with open("itunes.config", 'r', encoding='utf-8') as f:
             json_dict = json.loads(f.read(), encoding='utf-8')
-            self._areas = json_dict['areas']
-            self._appids = json_dict['appids']
-            self._delay = int(json_dict['delay'])
+            return json_dict
+        return {}
 
     def areas(self):
-        return self._areas
+        return self._config.get('areas', [])
 
     def appids(self):
-        return self._appids
+        return self._config().get('appids', [])
 
     def delay(self):
-        return self._delay
+        d = int(self._config().get('delay', 1))
+        if d <= 0:
+            d = 1
+        return d
