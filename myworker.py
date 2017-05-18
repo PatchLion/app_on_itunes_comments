@@ -27,7 +27,11 @@ def update_comments():
 def start_send_new_comments_email():
     current_dt = time.time()
     mylogger.info('Do start_send_new_comments_email(RQ)')
-    last_timestamp = round(float(conn.get(LASTTIMESTAMP_KEY)))
+    last = conn.get(LASTTIMESTAMP_KEY)
+    last_timestamp = 0
+    if last is not None:
+        last_timestamp = round(float(last))
+
     mylogger.info('Last TimeStamp: {0} {1}'.format(last_timestamp, type(last_timestamp)))
     results = Comments.requry_record_after_timestamp(last_timestamp)
     mylogger.info("TotalCount: {0}".format(len(results)))
