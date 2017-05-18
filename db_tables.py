@@ -33,7 +33,7 @@ class Comments(BaseModel):
 
     @classmethod
     def add_comments(cls, comment_item):
-        mylogger.info("Insert item:", comment_item["id"], comment_item["title"]);
+        mylogger.info("Insert item: {0} {1}".format(comment_item["id"], comment_item["title"]))
         new_comment = Comments()
         new_comment.id = comment_item["id"]
         new_comment.author = comment_item["author"]
@@ -50,7 +50,7 @@ class Comments(BaseModel):
             db_session.add(new_comment)
             db_session.commit()
         except Exception as e:
-            mylogger.error("Comments.add_comments:", e)
+            mylogger.error("Comments.add_comments: {0}".format(e))
 
     @classmethod
     def requry_record_after_timestamp(cls, last_timestamp):
