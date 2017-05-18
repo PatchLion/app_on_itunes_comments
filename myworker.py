@@ -66,7 +66,7 @@ def start_send_new_comments_email():
                 server['name'] = email_config["smtp_server"]
                 server['user'] = email_config["username"]
                 server['passwd'] = email_config["password"]
-                mylogger.debug("Email server: {0}".arg(server))
+                mylogger.debug("Email server: {0}".format(server))
                 send_result = send_mail(server, email_config["port"],
                                      email_config["from"],
                                      appid_config["emails"],
