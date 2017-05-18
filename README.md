@@ -20,13 +20,13 @@
 
 
 ~~**特殊文件说明**~~
-- ~~需复制email_bk.config并更名为 email.config， 该文件配置了email的发送需要的账号和服务器,以及哪些邮箱监听哪些App的配置
-- itunes.config 的说明
-  areas： 要拉取哪些地区的评论
-  appids: 拉取的App的ID（可在itunes的App管理后台查看ID）
-  delay：爬取活动的时间间隔(单位:小时)
-- email_template.html： 最终生成评论的html模板
-- row_template.html: 单个评论的html模板~~
+- ~~需复制email_bk.config并更名为 email.config， 该文件配置了email的发送需要的账号和服务器,以及哪些邮箱监听哪些App的配置~~
+- ~~itunes.config 的说明~~
+  ~~areas： 要拉取哪些地区的评论~~
+  ~~appids: 拉取的App的ID（可在itunes的App管理后台查看ID）~~
+  ~~delay：爬取活动的时间间隔(单位:小时)~~
+- ~~email_template.html： 最终生成评论的html模板~~
+- ~~row_template.html: 单个评论的html模板~~
 
 2017/5/18 Update
 **使用到的库(包)**
