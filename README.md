@@ -43,8 +43,11 @@
 怎么使用
 -----------
 ```bash
-$ python myworker.py
+创建数据库及表(如果没有): $ python db_tables_creator.py
 ```
 ```bash
-$ python taskproducer.py
+启动任务调度: $ python myworker.py
+```
+```bash
+启动任务生产者(定时循环):$ python taskproducer.py
 ```
