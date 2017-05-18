@@ -3,7 +3,7 @@
 from comments import db_session, BaseModel, RecordExistType
 from sqlalchemy import Column
 from sqlalchemy.types import *
-from comments.items import CommentsItem
+import logging
 
 class Comments(BaseModel):
     __tablename__ = "comments"
@@ -28,12 +28,12 @@ class Comments(BaseModel):
             else:
                 return RecordExistType.NotExist
         except Exception as e:
-            print("Comments.is_comments_exist:", e)
+            logging.ERROR("Comments.is_comments_exist:", e)
             return RecordExistType.Error
 
     @classmethod
     def add_comments(cls, comment_item):
-        print("Insert item:", comment_item["id"]);
+        logging.info("Insert item:", comment_item["id"], comment_item["title"]);
         new_comment = Comments()
         new_comment.id = comment_item["id"]
         new_comment.author = comment_item["author"]
@@ -50,7 +50,7 @@ class Comments(BaseModel):
             db_session.add(new_comment)
             db_session.commit()
         except Exception as e:
-            print("Comments.add_comments:", e)
+            logging.error("Comments.add_comments:", e)
 
     @classmethod
     def requry_record_after_timestamp(cls, last_timestamp):
