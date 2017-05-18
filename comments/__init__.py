@@ -2,6 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from enum import Enum
+from mylogging import config_logging
 
 class RecordExistType(Enum):
     NotExist = 0
@@ -13,6 +14,7 @@ def read_html(file):
         html = f.read()
     return html
 
+config_logging()
 BaseModel = declarative_base()
 db_engine = create_engine('sqlite:///comments.db', encoding='utf-8', echo=False)
 DBSession = sessionmaker(bind=db_engine)
