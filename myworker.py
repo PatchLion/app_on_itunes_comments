@@ -11,8 +11,9 @@ from comments_html_builder import comments_html_builder
 from operator import attrgetter
 from email_config import email_config
 from send_email import send_mail
-from mylogging import config_logging
-import logging
+
+from mylogging import mylogger
+
 listen = ['high', 'default', 'low']
 LASTTIMESTAMP_KEY = "comments:lasttimestamp"
 redis_url = "redis://localhost:6379"
@@ -25,11 +26,11 @@ def update_comments():
 
 def start_send_new_comments_email():
     current_dt = time.time()
-    logging.info('Do start_send_new_comments_email(RQ)')
+    mylogger.info('Do start_send_new_comments_email(RQ)')
     last_timestamp = round(float(conn.get(LASTTIMESTAMP_KEY)))
-    logging.info('Last TimeStamp:', last_timestamp, type(last_timestamp))
+    mylogger.info('Last TimeStamp:', last_timestamp, type(last_timestamp))
     results = Comments.requry_record_after_timestamp(last_timestamp)
-    logging.info("TotalCount:", len(results))
+    mylogger.info("TotalCount:", len(results))
 
     result_map = {}
     for result in results:
@@ -42,11 +43,11 @@ def start_send_new_comments_email():
         for key, value in result_map.items():
             list_comment = result_map[key]
             list_comment.sort(key=attrgetter('version'), reverse=True)
-            logging.info('有新的评论的App:', key, '新评论数:', len(list_comment), '条')
+            mylogger.info('有新的评论的App:', key, '新评论数:', len(list_comment), '条')
             appid_config = email_config["dest_emails"].get(key, None)
 
             if appid_config is None:
-                logging.error("没有找到App:", key, "相关的邮箱配置!")
+                mylogger.error("没有找到App:", key, "相关的邮箱配置!")
             else:
                 content = comments_html_builder(appid_config["app_name"], list_comment)
 
@@ -55,27 +56,28 @@ def start_send_new_comments_email():
                 with open(temp_html_file_nam, 'w', encoding='utf-8') as f:
                     f.write(content)
 
-                logging.info("开始发送App", key, "的通知邮件(From:", email_config["from"], ":" , str(email_config["port"]), ' To: ', appid_config["emails"], ")")
+                mylogger.info("开始发送App", key, "的通知邮件(From:", email_config["from"], ":" , str(email_config["port"]), ' To: ', appid_config["emails"], ")")
 
                 server = {}
                 server['name'] = email_config["smtp_server"]
                 server['user'] = email_config["username"]
                 server['passwd'] = email_config["password"]
-                logging.debug("Email server:", server)
+                mylogger.debug("Email server:", server)
                 send_result = send_mail(server, email_config["port"],
                                      email_config["from"],
                                      appid_config["emails"],
                                      "[" + appid_config["app_name"] + "] 有了" + str(len(list_comment)) + "条新评论",
                                      "见附件", [temp_html_file_nam])
 
-                logging.info("发送邮件完毕!", send_result)
+                mylogger.info("发送邮件完毕!", send_result)
         conn.set(LASTTIMESTAMP_KEY, current_dt)
     except Exception as e:
-        logging.error("发送邮件过程中，发生异常:", e)
+        mylogger.error("发送邮件过程中，发生异常:", e)
 
 if __name__ == '__main__':
     with Connection(conn):
         worker = None
+        mylogger.info("Start worker...")
         if os.name == "nt":
             worker = WindowsWorker(map(Queue, listen))
         else:
