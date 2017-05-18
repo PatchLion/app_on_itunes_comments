@@ -46,7 +46,7 @@ def start_send_new_comments_email():
     try:
         for key, value in result_map.items():
             list_comment = result_map[key]
-            list_comment.sort(key=attrgetter('version'), reverse=True)
+            list_comment.sort(key=attrgetter('version', 'create_timestamp'), reverse=True)
             mylogger.info('有新的评论的App: {0} 数量:{1}条'.format(key, len(list_comment)))
             appid_config = email_config["dest_emails"].get(key, None)
 
