@@ -7,13 +7,15 @@
 
 import scrapy
 
-
-class ItunescommentsspiderItem(scrapy.Item):
+class CommentsItem(scrapy.Item):
     id = scrapy.Field()
     author = scrapy.Field()
     version = scrapy.Field()
     rating = scrapy.Field()
     title = scrapy.Field()
     content = scrapy.Field()
-    contenttype = scrapy.Field()
-    createtimestamp = scrapy.Field()
+    country_or_area = scrapy.Field()
+    app_id = scrapy.Field()
+    content_type = scrapy.Field()
+    create_timestamp = scrapy.Field()
+    update_timestamp = scrapy.Field()

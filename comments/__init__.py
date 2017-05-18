@@ -1,4 +1,3 @@
-from scrapy.utils.project import get_project_settings
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -15,7 +14,6 @@ def read_html(file):
     return html
 
 BaseModel = declarative_base()
-mysettings = get_project_settings()
 db_engine = create_engine('sqlite:///comments.db', encoding='utf-8', echo=False)
 DBSession = sessionmaker(bind=db_engine)
 db_session = DBSession()

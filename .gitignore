@@ -88,9 +88,8 @@ ENV/
 # Rope project settings
 .ropeproject
 
-email.config
+
 .idea
-
+email_config.py
 comments.db
-
 comments_*.html

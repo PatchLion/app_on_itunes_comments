@@ -36,5 +36,6 @@ def send_mail(server, p, fro, to, subject, text, files=[]):
     #smtp.starttls()
     smtp.connect(server['name'])
     smtp.login(server['user'], server['passwd'])
-    smtp.sendmail(fro, to, msg.as_string())
+    result = smtp.sendmail(fro, to, msg.as_string())
     smtp.close()
+    return result
