@@ -11,7 +11,8 @@
 - 可配置哪些邮箱接收哪些App的评论 √
 - 持续的优化，使代码更Pythonic...
 
-**已知需要优化的问题**
+已知需要优化的问题
+-----------
 - 网页模板需要更优化更美观
 - ~~json数据不包含评论日期(xml格式中没有评论星数，所以用json)，还需要从xml格式中解析出日期数据并保存~~ 使用xml解析 √
 - ~~需要设为后台运行?~~
@@ -19,7 +20,8 @@
 
 
 
-~~**特殊文件说明**~~
+~~特殊文件说明~~
+-----------
 - ~~需复制email_bk.config并更名为 email.config， 该文件配置了email的发送需要的账号和服务器,以及哪些邮箱监听哪些App的配置~~
 - ~~itunes.config 的说明~~
   ~~areas： 要拉取哪些地区的评论~~
@@ -29,14 +31,17 @@
 - ~~row_template.html: 单个评论的html模板~~
 
 2017/5/18 Update
-**使用到的库(包)**
+-----------
+使用到的库(包)
+-----------
 - rq / [rq-win](https://github.com/michaelbrooks/rq-win)
 - apscheduler
 - scrapy
 - redis
 - BeautifulSoup
 
-**怎么使用**
+怎么使用
+-----------
 ```bash
 $ python myworker.py
 ```
