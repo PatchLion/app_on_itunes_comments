@@ -26,18 +26,25 @@
 - 需复制email_bk.config并更名为 email.config， 该文件配置了email的发送需要的账号和服务器,以及哪些邮箱监听哪些App的配置
 - setting.py 的说明
   UPDATE_COMMENTS_INTERVAL: 评论拉取周期（秒）
+  
   NEW_ITEMS_CHECK_INTERVAL: 新评论检查并发送文件周期（秒）
+  
   TRANSLATE_CHECK_INTERVAL： 翻译任务周期
   
   ITUNES_AREAS： 拉取哪些地区的评论
+  
   ITUNES_APPIDS： 拉取哪些App的评论
-  
-  
+
   MAIL_FROM： 邮件发件地址
+  
   MAIL_HOST: 发件服务器
+  
   MAIL_PORT: 发件服务器端口
+  
   MAIL_USER： 邮箱账户
+  
   MAIL_PASS： 邮箱密码
+  
   
   
   
