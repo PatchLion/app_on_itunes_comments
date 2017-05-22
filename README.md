@@ -30,7 +30,7 @@
   
   NEW_ITEMS_CHECK_INTERVAL: 新评论检查并发送文件周期（秒）
   
-  TRANSLATE_CHECK_INTERVAL： 翻译任务周期
+  TRANSLATE_CHECK_INTERVAL： 翻译任务周期（秒）
   
   ITUNES_AREAS： 拉取哪些地区的评论
   
