@@ -15,6 +15,8 @@ class CommentsItem(scrapy.Item):
     title = scrapy.Field()
     content = scrapy.Field()
     country_or_area = scrapy.Field()
+    content_trans_cn = scrapy.Field()
+    content_trans_en = scrapy.Field()
     app_id = scrapy.Field()
     content_type = scrapy.Field()
     create_timestamp = scrapy.Field()

@@ -10,6 +10,7 @@ mysettings = get_project_settings()
 def build_url(country, appid):
     return 'https://itunes.apple.com/' + country + '/rss/customerreviews/id=' + appid + '/xml'
 
+
 class CommentsspiderSpider(XMLFeedSpider):
     name = "commentsspider"
     allowed_domains = ["itunes.apple.com"]
@@ -36,6 +37,8 @@ class CommentsspiderSpider(XMLFeedSpider):
             c["title"] = tag.find('title').string
             c["content"] = tag.find('content').string
             c["country_or_area"] = countryorarea
+            c["content_trans_cn"] = ""
+            c["content_trans_en"] = ""
             c["app_id"] = appid
             c["content_type"] = tag.find('content')["type"]
             dt = tag.find('updated').string[:-6]

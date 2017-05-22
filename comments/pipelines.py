@@ -9,6 +9,7 @@ from db_tables import Comments
 from scrapy.exceptions import DropItem
 from comments import RecordExistType
 
+
 class CommentsPipeline(object):
     def process_item(self, item, spider):
         result = Comments.is_comments_exist(item["id"])

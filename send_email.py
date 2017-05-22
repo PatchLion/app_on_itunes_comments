@@ -22,7 +22,7 @@ def send_mail(server, p, fro, to, subject, text, files=[]):
     msg['Subject'] = subject
     msg['To'] = COMMASPACE.join(to)  # COMMASPACE==', '
     msg['Date'] = formatdate(localtime=True)
-    msg.attach(MIMEText(text))
+    msg.attach(MIMEText(text, 'html', 'utf-8'))
 
     for file in files:
         part = MIMEBase('application', 'octet-stream')  # 'octet-stream': binary data
@@ -33,8 +33,8 @@ def send_mail(server, p, fro, to, subject, text, files=[]):
 
     import smtplib
     smtp = smtplib.SMTP()# smtplib.SMTP(server['name'], port=p)
-    #smtp.starttls()
     smtp.connect(server['name'])
+    smtp.starttls()
     smtp.login(server['user'], server['passwd'])
     result = smtp.sendmail(fro, to, msg.as_string())
     smtp.close()

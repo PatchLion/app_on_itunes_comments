@@ -17,8 +17,9 @@ SPIDER_MODULES = ['comments.spiders']
 NEWSPIDER_MODULE = 'comments.spiders'
 
 #user-defined
-UPDATE_COMMENTS_INTERVAL = 1 #hour
-NEW_ITEMS_CHECK_INTERVAL = 2 #hour
+UPDATE_COMMENTS_INTERVAL = 30 * 60    #seconds
+NEW_ITEMS_CHECK_INTERVAL = 2.5 * 60 * 60    #seconds
+TRANSLATE_CHECK_INTERVAL = 30 * 60    #seconds
 
 ITUNES_AREAS = ["cn", "us", "jp",
              "de", "fr", "tw",

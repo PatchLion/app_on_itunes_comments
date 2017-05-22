@@ -3,6 +3,7 @@
 from comments import db_session, BaseModel, RecordExistType
 from sqlalchemy import Column
 from sqlalchemy.types import *
+from sqlalchemy.sql import and_
 from mylogging import mylogger
 
 class Comments(BaseModel):
@@ -13,6 +14,8 @@ class Comments(BaseModel):
     rating = Column(INT(), nullable=False)
     title = Column(TEXT(), nullable=False)
     content = Column(TEXT(), nullable=False)
+    content_trans_cn = Column(TEXT(), nullable=True)
+    content_trans_en = Column(TEXT(), nullable=True)
     content_type = Column(TEXT(), nullable=False)
     app_id = Column(TEXT(), nullable=False)
     country_or_area = Column(TEXT(), nullable=False)
@@ -22,13 +25,13 @@ class Comments(BaseModel):
     @classmethod
     def is_comments_exist(cls, comment_id):
         try:
-            result = db_session.query(Comments).filter_by(id=comment_id).all()
+            result = db_session.query(Comments).filter(Comments.id==comment_id).all()
             if(0 != len(result)):
                 return RecordExistType.Exist
             else:
                 return RecordExistType.NotExist
         except Exception as e:
-            mylogger.ERROR("Comments.is_comments_exist:", e)
+            mylogger.error("Comments.is_comments_exist: {0}".format(str(e)))
             return RecordExistType.Error
 
     @classmethod
@@ -41,6 +44,8 @@ class Comments(BaseModel):
         new_comment.rating = comment_item["rating"]
         new_comment.title = comment_item["title"]
         new_comment.content = comment_item["content"]
+        new_comment.content_trans_cn = comment_item["content_trans_cn"]
+        new_comment.content_trans_en = comment_item["content_trans_en"]
         new_comment.country_or_area = comment_item["country_or_area"]
         new_comment.app_id = comment_item["app_id"]
         new_comment.content_type = comment_item["content_type"]
@@ -53,6 +58,20 @@ class Comments(BaseModel):
             mylogger.error("Comments.add_comments: {0}".format(e))
 
     @classmethod
-    def requry_record_after_timestamp(cls, last_timestamp):
-        result = db_session.query(Comments).filter(Comments.update_timestamp > last_timestamp).all()
+    def requry_record_after_timestamp(cls, appid, last_timestamp):
+        result = db_session.query(Comments).filter(and_(Comments.update_timestamp > last_timestamp, Comments.app_id == appid)).all()
         return result
+
+    @classmethod
+    def requery_not_translate_cn_comments(cls, exps = ["cn", "tw"]):
+        cons = [(Comments.country_or_area != lan) for lan in exps]
+        cons.append(Comments.content_trans_cn == "")
+        result = db_session.query(Comments).filter(and_(*cons)).all()
+        print("requery_not_translate_cn_comments:", len(result))
+        return result
+
+    @classmethod
+    def update_translate_comment(cls, old, tran,
+                                 ):
+        db_session.query(Comments).filter(Comments.content == old).update({Comments.content_trans_cn: tran})
+        db_session.commit()
