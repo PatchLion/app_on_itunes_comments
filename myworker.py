@@ -17,6 +17,7 @@ from googletrans import Translator
 
 listen = ['high', 'default', 'low']
 LASTTIMESTAMP_KEY = "comments:lasttimestamp"
+LIMIT_COMMENT_SIZE = 8
 redis_url = "redis://localhost:6379"
 
 
@@ -76,7 +77,7 @@ def start_send_new_comments_email():
         try:
             for key, value in result_map.items():
                 #print("Wait seconds......")
-                time.sleep(5) #休眠几秒
+                #time.sleep(5) #休眠几秒
                 list_comment = result_map[key]
                 list_comment.sort(key=attrgetter('version', 'create_timestamp'), reverse=True)
                 mylogger.info('有新的评论的App: {0} 数量:{1}条'.format(key, len(list_comment)))
@@ -85,10 +86,10 @@ def start_send_new_comments_email():
                 if appid_config is None:
                     mylogger.error("没有找到App:{0} 相关的邮箱配置!".format(key))
                 else:
-                    content = comments_html_builder(appid_config["app_name"], list_comment)
+                    content = comments_html_builder(appid_config["app_name"], list_comment, limit = LIMIT_COMMENT_SIZE)
 
                     app_name_with_line = appid_config["app_name"].replace(' ', "_")
-                    temp_html_file_nam = 'comments_'+ app_name_with_line + '_' + key +'.html'
+                    temp_html_file_nam = 'comments_' + app_name_with_line + '_' + key + '.html'
                     with open(temp_html_file_nam, 'w', encoding='utf-8') as f:
                         f.write(content)
 
@@ -99,12 +100,22 @@ def start_send_new_comments_email():
 
                     mylogger.info("开始发送App: {0}的通知邮件(From: {1}:{2} To {3})".format(key, email_config["from"], str(email_config["port"]), appid_config["emails"]))
 
+                    #如果大于了限制的评论，则将多余的放入附件发送
+                    file_list = []
+                    if len(list_comment) > LIMIT_COMMENT_SIZE:
+                        file_list.append(temp_html_file_nam)
+
+                        tip = "<p style='color:#000000'>评论数已超出了显示限制，请下载附件查看全部评论</p>"
+                        content = tip + "</p></p></p>" + content
+                        content = content + "</p></p></p>" + tip
+
                     mylogger.info("Email server: {0}".format(server))
                     send_result = send_mail(server, email_config["port"],
                                          email_config["from"],
                                          appid_config["emails"],
-                                         "App [ " + appid_config["app_name"] + "] 有了" + str(len(list_comment)) + "条新评论",
-                                            content, [])
+                                         "App [ " + appid_config["app_name"] + " ] 有了" + str(len(list_comment)) + "条新评论",
+                                            content, file_list)
+
 
 
                     mylogger.info("发送邮件完毕! {0}".format(send_result))

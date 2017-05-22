@@ -4,11 +4,11 @@
 from comments import template_row_data, template_table_data, template_translate_data
 import time
 
-def comments_html_builder(appname, list_comment):
+def comments_html_builder(appname, list_comment, limit = 30):
     html = template_table_data
     html = html.replace('%AppName%', appname)
     rows = ""
-    for c in list_comment:
+    for c in list_comment[:limit]:
         translate_data = template_translate_data
         row_temp = template_row_data
         row_temp = row_temp.replace('%Author%', c.author)

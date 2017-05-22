@@ -9,11 +9,11 @@ email_config = {
     "port": 465,
     "dest_emails": {
         "503039729": {
-        "app_name": "Fotor for mac",
+        "app_name": "Fotor for MacOS",
         "emails": ["cccc@sina.com", "ssssssss@qq.com"]},
 
         "1173483089": {
-        "app_name": "GoArt for Mac",
+        "app_name": "GoArt for MacOS",
         "emails": ["cccccc@sina.com", "sssssss@qq.com"]}
     }
 }
