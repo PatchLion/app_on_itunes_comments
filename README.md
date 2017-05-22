@@ -25,6 +25,7 @@
 -----------
 - 需复制email_bk.config并更名为 email.config， 该文件配置了email的发送需要的账号和服务器,以及哪些邮箱监听哪些App的配置
 - setting.py 的说明
+
   UPDATE_COMMENTS_INTERVAL: 评论拉取周期（秒）
   
   NEW_ITEMS_CHECK_INTERVAL: 新评论检查并发送文件周期（秒）
