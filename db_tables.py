@@ -71,7 +71,18 @@ class Comments(BaseModel):
         return result
 
     @classmethod
-    def update_translate_comment(cls, old, tran,
-                                 ):
+    def update_translate_comment(cls, old, tran):
         db_session.query(Comments).filter(Comments.content == old).update({Comments.content_trans_cn: tran})
+        db_session.commit()
+
+    @classmethod
+    def update_translate_comment(cls, mapdata):
+        olds = mapdata.keys()
+        conds = [(Comments.content == key) for key in olds]
+        results = db_session.query(Comments).filter(*conds).all()
+
+        for result in results:
+            #mylogger.info("update_translate_comment:", result.content, "-->", mapdata[result.content])
+            result.content_trans_cn = mapdata[result.content]
+
         db_session.commit()

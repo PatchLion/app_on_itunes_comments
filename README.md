@@ -34,7 +34,7 @@
   
   ITUNES_AREAS： 拉取哪些地区的评论
   
-  ITUNES_APPIDS： 拉取哪些App的评论
+  ~~ITUNES_APPIDS： 拉取哪些App的评论~~
 
   MAIL_FROM： 邮件发件地址
   

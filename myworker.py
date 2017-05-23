@@ -3,6 +3,7 @@
 import time
 import os
 import redis
+import json
 from rq_win import WindowsWorker
 from rq import Queue, Connection, Worker
 from db_tables import Comments
@@ -10,7 +11,6 @@ from comments_html_builder import comments_html_builder
 from operator import attrgetter
 from email_config import email_config
 from send_email import send_mail
-
 from mylogging import mylogger
 from googletrans import Translator
 
@@ -27,21 +27,27 @@ conn = redis.from_url(redis_url)
 def start_translate_task():
     #读取非cn、未翻译的内容
     list_comments = Comments.requery_not_translate_cn_comments()
-    LENTH = 50
+    LENTH = 20
     list_comments = [list_comments[i:i+LENTH] for i in range(0, len(list_comments), LENTH)]
     #print("Comments lenth:", len(list_comments), type(list_comments), list_comments[0], type(list_comments[0]))
 
     for cs in list_comments:
         list_ori_string = [c.content for c in cs]
+        mylogger.info("开始请求翻译：{0}".format(list_ori_string))
         try:
             translator = Translator()
             translations = translator.translate(list_ori_string, dest="zh-CN")
-            #list_map = map(list_ori_string, translations)
+            datamap = {}
+
             for tran in translations:
-                print(tran.origin, ' -> ', tran.text)
-                Comments.update_translate_comment(tran.origin, tran.text)
+                mylogger.info("{0} -> {1}".format(tran.origin, tran.text))
+                datamap[tran.origin] = tran.text
+
+            Comments.update_translate_comment(datamap)
+        except json.decoder.JSONDecodeError as e:
+            mylogger.warning("Json error: {0}".format(e))
         except Exception as e:
-            print("translate:", e)
+            mylogger.warning("translate: {0}".format(e))
 
 
 def update_comments():

@@ -4,6 +4,7 @@ from scrapy.spiders import XMLFeedSpider
 from bs4 import *
 from comments.items import CommentsItem
 import time
+from email_config import email_config
 
 mysettings = get_project_settings()
 
@@ -19,7 +20,7 @@ class CommentsspiderSpider(XMLFeedSpider):
     itertag = 'feed'
 
     def __init__(self):
-        self.start_urls = [build_url(c, a) for c in mysettings.get("ITUNES_AREAS") for a in mysettings.get("ITUNES_APPIDS")]
+        self.start_urls = [build_url(c, a) for c in mysettings.get("ITUNES_AREAS") for a in email_config["dest_emails"].keys()]
 
     def parse(self, response):
         soup = BeautifulSoup(response.body, 'lxml')

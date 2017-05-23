@@ -37,7 +37,7 @@ ITUNES_AREAS = ["cn", "us", "jp",
              "gb", "ie", "ca",
              "au", "nz", "za"]
 
-ITUNES_APPIDS = ["503039729", "1173483089"]
+#ITUNES_APPIDS = ["503039729", "1173483089", "440159265", "440458444"]
 LOG_LEVEL="WARNING"
 
 #email
