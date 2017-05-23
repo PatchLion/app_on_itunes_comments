@@ -76,7 +76,7 @@ class Comments(BaseModel):
         db_session.commit()
 
     @classmethod
-    def update_translate_comment(cls, mapdata):
+    def update_translate_comments(cls, mapdata):
         olds = mapdata.keys()
         conds = [(Comments.content == key) for key in olds]
         results = db_session.query(Comments).filter(*conds).all()

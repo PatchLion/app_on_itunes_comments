@@ -27,7 +27,7 @@ conn = redis.from_url(redis_url)
 def start_translate_task():
     #读取非cn、未翻译的内容
     list_comments = Comments.requery_not_translate_cn_comments()
-    LENTH = 20
+    LENTH = 1
     list_comments = [list_comments[i:i+LENTH] for i in range(0, len(list_comments), LENTH)]
     #print("Comments lenth:", len(list_comments), type(list_comments), list_comments[0], type(list_comments[0]))
 
@@ -43,7 +43,7 @@ def start_translate_task():
                 mylogger.info("{0} -> {1}".format(tran.origin, tran.text))
                 datamap[tran.origin] = tran.text
 
-            Comments.update_translate_comment(datamap)
+            Comments.update_translate_comments(datamap)
         except json.decoder.JSONDecodeError as e:
             mylogger.warning("Json error: {0}".format(e))
         except Exception as e:
