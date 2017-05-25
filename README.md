@@ -70,3 +70,6 @@
 ```bash
 启动任务生产者(定时循环):$ python taskproducer.py
 ```
+```bash
+启动Google翻译任务（其他非中文语言->中文,国内用户需要VPN或其它）:$ python google_translate.py
+```
