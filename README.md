@@ -65,10 +65,10 @@
 创建数据库及表(如果没有): $ python db_tables_creator.py
 ```
 ```bash
-启动任务调度: $ python myworker.py
+启动任务处理器（可启动多个）: $ python myworker.py
 ```
 ```bash
-启动任务生产者(定时循环):$ python taskproducer.py
+启动任务调度(生产者、定时循环):$ python taskproducer.py
 ```
 ```bash
 启动Google翻译任务（其他非中文语言->中文,国内用户需要VPN或其它）:$ python google_translate.py
