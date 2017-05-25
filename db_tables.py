@@ -63,11 +63,11 @@ class Comments(BaseModel):
         return result
 
     @classmethod
-    def requery_not_translate_cn_comments(cls, exps = ["cn", "tw"]):
-        cons = [(Comments.country_or_area != lan) for lan in exps]
-        cons.append(Comments.content_trans_cn == "")
-        result = db_session.query(Comments).filter(and_(*cons)).all()
-        print("requery_not_translate_cn_comments:", len(result))
+    def requery_not_translate_comments(cls, skips=[], exps = ["cn", "tw"]):
+        conds = [(Comments.country_or_area != lan) for lan in exps]
+        conds.append(Comments.content_trans_cn == "")
+        skip_conds = [(Comments.content != content) for content in skips]
+        result = db_session.query(Comments).filter(and_(*conds, *skip_conds)).order_by(Comments.create_timestamp, Comments.version).all()
         return result
 
     @classmethod

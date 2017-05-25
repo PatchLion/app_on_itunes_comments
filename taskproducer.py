@@ -23,10 +23,12 @@ def start_send_new_comments_email_scheduler():
     result = q.enqueue(start_send_new_comments_email)
     mylogger.info('push start_send_new_comments_email task')
 
+'''
 @scheduler.scheduled_job("interval", seconds=mysettings.get("TRANSLATE_CHECK_INTERVAL", 1 * 60 * 60))
 def start_translate_task_scheduler():
     result = q.enqueue(start_translate_task)
     mylogger.info('push start_translate_task task')
+'''
 
 if __name__ == '__main__':
     try:
