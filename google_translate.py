@@ -9,7 +9,7 @@ skips = [] #TODO: googletrans的Bug, 某些带表情的评论出错
 
 def start_translate_task():
     list_comments = Comments.requery_not_translate_comments(skips)
-    mylogger.info("Total need translate count: %d" % len(list_comments))
+    mylogger.info("需要翻译的文本数量: %d" % len(list_comments))
     #LENTH = 1
     #list_comments = [list_comments[i:i+LENTH] for i in range(0, len(list_comments), LENTH)]
 
@@ -35,11 +35,11 @@ def start_translate_task():
         except json.decoder.JSONDecodeError as e:
             mylogger.warning("Json error: {0}".format(e))
             skips.append(cs.content)
-            mylogger.info("Skips: {0}".format(skips))
+            mylogger.info("跳过列表: {0}".format(skips))
         except Exception as e:
-            mylogger.warning("translate: {0}".format(e))
+            mylogger.warning("翻译异常: {0}".format(e))
 
 if "__main__" == __name__:
     while True:
         start_translate_task()
-        time.sleep(5)
+        time.sleep(30)
